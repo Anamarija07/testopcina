@@ -1,0 +1,286 @@
+ .navbar {
+  background-color: #990505;
+  font-size: large;
+  }
+
+ .bi-list {
+  color: white;
+  font-size: xx-large;
+  }
+
+ .bi-list:hover {
+  color: #ffffe6;
+  }
+
+ .nav-link {
+  color: white;
+  margin-right: 35px;
+  }
+
+ .nav-link:hover{
+  color: #ffffe6;
+  }
+
+ .navbar-brand {
+  color: white;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 9%;
+  }
+
+ .navbar-brand:hover {
+  color: #ffffe6;
+  }
+
+ .navbar-collapse{
+  color: white;
+  }
+
+ .dropdown-menu {
+  background-color: #990505;
+  }
+
+ .dropdown-item {
+  color: white;
+  margin-bottom: 4%;
+  }
+
+ .dropdown-item:hover {
+  color: #990505;
+  }
+
+  .dropdown-item:active { 
+    color: #990505 !important; 
+    background-color: #990505 !important;
+    }
+  
+  .dropdown-item:focus {
+    background-color: #990505 !important;
+    color: #ffffe6 !important;
+  }
+
+  #navbarNavDropdown {
+  margin-left: 9%;
+  }
+
+  .bi-chevron-down {
+    font-size: 25px;
+  }
+  .jumbotron {
+      background-color: white;
+  }
+
+  #sluzbenici {
+      width: 350px;
+/*      background-color: #e4dede;*/
+      background-color:  #ffffe6;
+      margin-bottom: 20px;
+      margin-left: 80px;
+  }
+  
+  .card-header {
+    background-color: #ffffe6;
+    font-weight: 400;
+  }
+
+  #lista {
+      border: none;
+  }
+
+  .redsection {
+      background-color: #990505;
+  }
+
+  #ov-heading {
+    background-color: white;
+    color: #990505;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #990505;
+    font: 50px;
+    margin-bottom: 12px;
+  }
+
+  #ov-heading:hover {
+    background-color: #990505;
+    color: white;
+    transform: scale(1.02);
+
+  }
+  #btn-sg {
+    background-color: #990505;
+    color: white;
+    width: 100%;
+    border: 2px solid #990505;
+  }
+
+  #btn-sg:hover {
+    background-color: white;
+    color: #990505;
+  }
+
+  #card-sg {
+    height: 1rem;
+  }
+
+  #ov-heading1 {
+    background-color: white;
+    color: #990505;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #990505;
+    font-size: 10px;
+    margin-bottom: 12px;
+    height: 60px;
+  }
+
+  #ov-heading1:hover {
+    background-color: #ffffe6;
+    color: #990505;
+    transform: scale(1.02);
+  }
+
+  #prilog-slika {
+    font-size: 15px;
+  }
+
+  #blogcard1 {
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    margin: 5%;
+    display: flex;
+    background-color: white;;
+    width: 90%;
+    height: 100%;
+  }
+
+  #blogcard1 a {
+    background-color: #990505;
+    color: white;
+    border: 2px solid #990505;
+    }
+
+  #blogcard1 .btn:hover {
+    background-color: white;
+    color: #990505;
+    border: 2px solid #990505;
+    }
+
+  #blogcard1:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);  
+}
+
+  #blogcard1 img {
+    width: 250px;
+    height: 250px;
+    transform: translate(-20%,0%);
+    margin-left: 5%;
+    border-radius: 2%;
+    border: 2px solid #990505;
+   
+  }
+
+  #blogcard2 {
+    flex-direction: row;
+    align-items: left;
+    padding: 1%;
+    margin: 5%;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+  }
+
+  #blogcard2 a{
+    background-color: #990505;
+    color: white;
+    border: #990505;
+  }
+    
+  #blogcard2 .btn:hover {
+    background-color: white;
+    color: #990505;
+    border: 2px solid #990505;
+  }
+
+  #blogcard2:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+
+  #blogcard2 img {
+    width: 250px;
+    height: 250px;
+    transform: translate(20%,20%);
+    margin-right: 5%;
+    border-radius: 2%;
+    border: 2px solid #990505;
+  }
+
+  #glasnik {
+    /*background-color: #885445;*/
+    background-color: white;
+    color: #990505;
+    text-align: center;
+    border: 3px solid #990505;
+  }
+  
+  #glasnik:hover {
+    background-color: #c34e2e;
+    translate: (0.5,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transform: scale(1.02);
+    color: white;
+  }
+
+  #druga-kartica {
+    height: 20px;
+  }
+
+  .grb {
+    height: 50px;
+    width: 48px;
+    margin-right: 10px;
+}
+
+#btn-natrag {
+  border: 2px solid #c34e2e; 
+  color: #990505;
+  font-weight: bold;
+  float: right;
+  background-color: white;
+}
+
+#btn-natrag:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #990505;
+}
+
+a.btn2-danger {
+  color: #ffffe6;
+  border: 2px solid red;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+#btn-edit {
+  float: right;
+  margin-left: 3%;
+  margin-right: 10%;
+}
+
+#btn-danger {
+  float: right;
+}
+
+#povjerenstvo {
+  color: black;
+}
+
+#povjerenstvo:hover {
+  color: #990505;
+  transform: scale(1.02);
+}
